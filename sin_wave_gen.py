@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Feb  9 09:13:37 2019
+Library that creates vibration wave forms for use in development work
 
 #@author: Keith
 #"""
@@ -8,7 +8,7 @@ Created on Sat Feb  9 09:13:37 2019
 import numpy as np
 import pandas as pd    
 
-def signal(f, fs, time_window, amplitude, SNR):
+def sine(f, fs, time_window, amplitude, SNR):
    """ f = sin frequency, fs = sampling frequency in Hz, time_duration is \
    time block of sample, 
    and amplitude is in G's, SNR is signal to noise ratio in power"""
@@ -22,8 +22,35 @@ def signal(f, fs, time_window, amplitude, SNR):
    noise = np.random.normal(0,sigma,num_samples)
    sine_wa = [sum(x) for x in zip(sine_wa,noise)]
    
-   sine_wave=pd.DataFrame(zip(time_series,sine_wa),columns=['time(s)','amplitude(G)'])
+   sine_wave=pd.DataFrame(zip(time_series,sine_wa),columns=['time_s','amplitude_g'])
    
    return sine_wave
-#test = sin_wave_gen.signal(10,1024,0.5,4,100)
-#plt.scatter(x=test['time(s)'],y=test['amplitude(G)'])
+   
+def composite_wave(*args):
+    """ Function takes in any number of waveforms of equivalent length, adds
+    their amplitudes to form composite waveform and returns the same as a
+    pandas dataframe with 2 columns, first is time, second is amplitude. TWF
+    inputs must be in form of 2 column array or pandas dataframe with time as
+    first column and amplitude as the second column. 
+    Waveforms can be in any units, no scaling or transforms are performed """
+    
+    for i in args:
+        if type(i) == np.ndarray:
+            labels = list(i.dtype.names)
+            i = pd.DataFrame(i,columns=[labels])
+            
+        elif type(i) == pd.core.frame.DataFrame: 
+            labels = list(i.columns.values)
+
+    n_rows = len(args[0])
+    n_cols = 2
+    composite = pd.DataFrame(np.zeros((n_rows, n_cols)),columns=labels)
+
+    for j in np.arange(len(args)):
+        composite = composite.add(args[j])
+        
+    composite[labels[0]] = composite[labels[0]].divide(len(args))
+    
+    return composite
+    
+        
