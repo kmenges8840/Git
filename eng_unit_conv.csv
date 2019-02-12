@@ -1,0 +1,11 @@
+input_unit,output_unit,multiply_by
+g,ips2,386.1
+g,mms2,9804.4
+ips2,g,0.0025900026
+ips2,mms2,25.4
+mms2,g,0.000101995
+mms2,ips2,0.0393700787
+ips,mms,25.4
+mms,ips,0.0393700787
+mil,mm,0.0254
+mm,mil,39.3701
