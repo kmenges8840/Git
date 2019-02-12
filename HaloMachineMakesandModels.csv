@@ -1,0 +1,88 @@
+make,model,type,specifictype,company
+Aerovent,TCF,fan,Vane Axial,Elite Lubrication Specialties
+Alladin,SF 3,fan,Centrifugal,FLUKE
+ALVI,LX-SLIA-135,fan,Centrifugal,Procter & Gamble
+Angelus,N\A,other,Drive Motor,Anheuser-Busch InBev
+Armstrong,N\A,pump,Centrifugal,New York Department of Education
+Atlas Copco,DN 110 8.6 60,other,Recip compressor,PepsiCo
+Atlas Copco,ZR250FF,other,Screw Compressor,PepsiCo
+Atlas Copco,ZR90,chiller,Screw,Boehringer Ingelheim
+Baldor,N\A,pump,Centrifugal,"Niagara Bottling, Inc."
+Baldor,Reliance,other,bilge pump,Entertainment Cruises
+Baldor,Reliance,pump,Gear Pump,Entertainment Cruises
+Bell and Gossett,5BD,pump,Centrifugal,PepsiCo
+Bluffton Motor Works,1304270102,pump,Centrifugal,Entertainment Cruises
+Buffalo Air Handling,N\A,fan,Centrifugal,Memorial Sloan Kettering - Cancer Center
+Carrier,19EX4343-836DN663S,chiller,Centrifugal,Carrier
+centrifugal,19EX4343836DN663S,chiller,Centrifugal,Carrier
+Chicago,6150,pump,Centrifugal,Grundfos
+Chicago Pump,KCC,pump,Centrifugal,Grundfos
+Chicago Pump,OSC10-4A,pump,Centrifugal,Grundfos
+Chiller 1,Trane,chiller,Screw,"Niagara Bottling, Inc."
+Clarage fan company,N\A,fan,Centrifugal,Johns Hopkins
+Clarage fan company,AFP,fan,Centrifugal,Johns Hopkins
+Climate craft,MTX Fans,fan,Centrifugal,Boehringer Ingelheim
+Crown Filler,N\A,other,Other,PepsiCo
+CT-1,N\A,fan,Centrifugal,New York Department of Education
+Duriron,N\A,pump,Centrifugal,MolsonCoors
+EBI 2 Main Drive,sew,other,conveyer,MolsonCoors
+Evapco,N\A,fan,Cooling Tower,FLUKE
+Evapco,6x5,pump,Centrifugal,PepsiCo
+Ferrari,DFR,fan,Centrifugal,Spuntech
+FES,N\A,other,Screw Compressor,FLUKE
+Flowserve,14FRBH244,pump,Centrifugal,St. Joseph Energy Center
+Flowserve,20APKC-4,pump,Centrifugal,St. Joseph Energy Center
+Flowserve,VCT,pump,Centrifugal,St. Joseph Energy Center
+Gardner Denver,EFC99J04,compressor_machine,Centrifugal,Elite Lubrication Specialties
+GOULD'S,VIC-T,pump,Centrifugal,Elite Lubrication Specialties
+Goulds,N\A,pump,Centrifugal,Elite Lubrication Specialties
+Greaves Mixer,VGM 25,other,Mixer,Diageo
+Griswold,3x2-6,pump,Centrifugal,PSG - Dover
+Griswold,4x3-8G,pump,Centrifugal,PSG - Dover
+Grundfos,NB pump,pump,Centrifugal,Grundfos
+Grundfos Yeomans Chicago,N\A,other,Pump,Grundfos
+Homogenizer On Plant 2,N\A,other,Homogenizer,Diageo
+Illinois Blower,N\A,fan,Centrifugal,St. Joseph Energy Center
+IR,N\A,compressor_machine,Screw,"Niagara Bottling, Inc."
+Krones,N\A,other,Gear drive,PepsiCo
+Krones,N\A,other,Gearbox,"Niagara Bottling, Inc."
+Krones,N\A,other,Gearbox,PepsiCo
+MCQUAY,C4220BPYY1A,chiller,Centrifugal,Elite Lubrication Specialties
+McQuay,C4220BPYY1A,chiller,Centrifugal,Elite Lubrication Specialties
+Mitsubishi,s6r2-ptaa-s 766kw,other,mg-hc6h,Electra FM
+Motor,N\A,other,Turbo compressor,Electrolux
+nocchi,N\A,pump,Centrifugal,Electra FM
+OSPREY,0RB-454-31.5,fan,Centrifugal,Procter & Gamble
+Peerless Pump,N\A,pump,Centrifugal,The Hartford Steam Boiler Inspection and Insurance Co.
+POLLRICH,HREM01-25-1000-C,fan,Centrifugal,Procter & Gamble
+POLLRICH,VR56-T20-C4-UR0800/S0/RG360,fan,Centrifugal,Procter & Gamble
+Pump Expres,N\A,pump,Centrifugal,Sodexo
+Reliance electrical,N\A,fan,Centrifugal,NEFCO
+Robinson,RB1222,fan,Centrifugal,NEFCO
+Robinson,RB1610-6,fan,Centrifugal,NEFCO
+screw conveyor,N\A,other,Conveyor,NEFCO
+Siemens Motormodell,N\A,other,testrig,Siemens
+SIHI Pumps,N\A,pump,Centrifugal,St. Joseph Energy Center
+spx,wi55/60,pump,Centrifugal,MolsonCoors
+SULZER,SLB-125,other,AGITATOR,Hadera paper
+TRANE,N\A,fan,Squirrel Cage,The Hartford Steam Boiler Inspection and Insurance Co.
+TRANE,Centravac,chiller,Centrifugal,Oregon Health and Science University
+TRANE,CHHC1C1A0N0,chiller,Screw,New York Department of Education
+TRANE,NA,chiller,Screw,New York Department of Education
+Trane,N\A,fan,Squirrel Cage,The Hartford Steam Boiler Inspection and Insurance Co.
+Trane,rtac140,chiller,Screw,Electra FM
+Trane,Rthc1c1aohoe1l3f1lf0qu0d,chiller,Screw,New York Department of Education
+trane,CHHA200FAA0R166NNNN,chiller,Centrifugal,New York Department of Education
+Tri-Clover,Pump,pump,Centrifugal,PepsiCo
+Tuthill Pump Group,Global Gear GG250,pump,Gear Pump,Tuthill Pump Group
+Twin City,N\A,fan,Centrifugal,Sodexo
+U.S. Motors,BF61A,pump,Centrifugal,California Water Service
+Unknown,N\A,fan,Cooling Tower,Elite Lubrication Specialties
+Unknown,N\A,other,Gearbox,PepsiCo
+US Motors,N\A,pump,Centrifugal,Brooklyn Navy Yard
+YORK,N\A,fan,Centrifugal,Sodexo
+York,lcsss assy,chiller,Screw,Carrier
+York,YKCSCRQ3-CJG,chiller,Centrifugal,BD
+York,YTG3A4E2-CRH,chiller,Centrifugal,Carrier
+York,YTL6M4F2-CWF,chiller,Centrifugal,Carrier
+york,N\A,fan,Centrifugal,BD
